@@ -1,3 +1,7 @@
+[![pub package](https://img.shields.io/pub/v/in_app_update.svg)](https://pub.dev/packages/upi_payment_flutter)
+
+Maintained by [Audio Kumbh](https://audiokumbh.com)
+
 # UPI Payment Flutter Package
 
 The `upi_payment_flutter` package is a Flutter plugin that simplifies the process of integrating UPI-based payment services into your app. It supports initiating transactions through UPI-enabled applications installed on the user's device.
