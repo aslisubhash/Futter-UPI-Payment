@@ -56,7 +56,7 @@ void _initiateTransaction() async {
     // Handle errors when UPI is not supported on the user's device
   }
 }
-\```
+```
 
 Replace the parameter values with the appropriate details for your transaction.
 
@@ -64,13 +64,13 @@ Replace the parameter values with the appropriate details for your transaction.
 
 The `initiateTransaction` method may throw a `PlatformException` if UPI payments are not supported on the user's device. You should catch this exception and handle it accordingly in your app.
 
-\```dart
+```dart
 try {
   // initiate transaction
 } on PlatformException catch (e) {
   // handle error
 }
-\```
+```
 
 ## Support
 
