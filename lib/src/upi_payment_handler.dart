@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+
 class UpiPaymentHandler {
   static const _upiUrlScheme = 'upi://pay';
 
@@ -20,8 +21,8 @@ class UpiPaymentHandler {
       amount: amount,
     );
 
-    if (await canLaunch(url)) {
-      await launch(url);
+if (await canLaunchUrl(Uri.parse(url))) {
+  await launchUrl(Uri.parse(url));
       return true;
     } else {
       throw PlatformException(
@@ -50,3 +51,4 @@ class UpiPaymentHandler {
     ).toString();
   }
 }
+
