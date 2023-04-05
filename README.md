@@ -1,5 +1,3 @@
-[![pub package](https://img.shields.io/pub/v/in_app_update.svg)](https://pub.dev/packages/upi_payment_flutter)
-
 Maintained by [Audio Kumbh](https://audiokumbh.com)
 
 # UPI Payment Flutter Package
