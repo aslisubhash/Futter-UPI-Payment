@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:upi_payment_flutter/upi_payment_flutter.dart';
 
 void main() {
@@ -30,7 +31,7 @@ class _UpiPaymentExampleHomePageState extends State<UpiPaymentExampleHomePage> {
   Future<void> _initiateTransaction() async {
     try {
       bool success = await upiPaymentHandler.initiateTransaction(
-        payeeVpa: 'example@upi',
+        payeeVpa: '9123187812@upi',
         payeeName: 'Example Merchant',
         transactionRefId: 'TXN123456',
         transactionNote: 'Test transaction',
